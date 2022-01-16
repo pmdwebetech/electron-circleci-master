@@ -5,7 +5,7 @@ jobs:
       - image: electronuserland/builder:wine
     steps:
       - checkout
-      - run: yarn && yarn release --win --publish=never
+      - run: yarn && yarn release --win
       - store_artifacts:
           path: ~/dist
 
