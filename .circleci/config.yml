@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run: yarn && yarn release --win
       - store_artifacts:
-          path: ~/dist
+          path: dist
 
 workflows:
   version: 2
