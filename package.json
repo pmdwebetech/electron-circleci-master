@@ -9,7 +9,7 @@
     "build": "run-os",
     "build:win32": "electron-builder --win",
     "clean": "rimraf ./dist",
-    "release": "electron-builder --publish never"
+    "release": "electron-builder --publish always"
   },
   "build": {
     "appId": "ca.joeireland.electron-circleci",
